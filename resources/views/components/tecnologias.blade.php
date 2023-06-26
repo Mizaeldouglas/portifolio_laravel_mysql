@@ -1,4 +1,4 @@
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-gray-900 dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto my-10">
         <h1 class="text-4xl font-bold mb-8 text-white">Tecnologias</h1>
 

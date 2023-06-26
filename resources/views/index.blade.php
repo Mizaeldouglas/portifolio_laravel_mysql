@@ -1,12 +1,12 @@
 <x-template>
     <x-header />
     <x-tecnologias />
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-gray-900 dark:bg-gray-900">
         <div class="container px-6 py-10 mx-auto my-10">
             <h1 class="text-4xl font-bold mb-8 text-white">Projetos</h1>
             <div class="grid grid-cols-2 gap-8 mt-8 md:mt-16 md:grid-cols-3">
                 @foreach ($projects as $project)
-                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transform transition-transform duration-300 hover:scale-105">
+                    <div class="max-w-sm bg-gray-900 border border-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transform transition-transform duration-300 hover:scale-105">
                         <a href="#">
                             <div class="flex justify-center items-center">
                                 <img class="rounded-t-lg" src="{{ $project->technology_image }}" alt=""/>

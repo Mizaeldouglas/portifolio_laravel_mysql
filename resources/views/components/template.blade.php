@@ -36,9 +36,9 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white dark:bg-gray-900">
-<header class="bg-white dark:bg-gray-900">
-    <div class="bg-white dark:bg-gray-900">
+<body class="bg-gray-900 dark:bg-gray-900">
+<header class="bg-gray-900 dark:bg-gray-900">
+    <div class="bg-gray-900 dark:bg-gray-900">
         <div class="h-16 mx-auto px-5 flex items-center justify-between">
             <a class="text-2xl hover:text-indigo-800 text-white transition-colors cursor-pointer">MDM</a>
 
@@ -53,7 +53,7 @@
 </header>
 {{$slot}}
 </body>
-<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+<footer class="bg-gray-900 rounded-lg shadow m-4  dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023
