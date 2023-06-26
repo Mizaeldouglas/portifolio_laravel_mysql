@@ -8,6 +8,7 @@
                         <a href="#" class="flex justify-center items-center h-56">
                             <img class="object-cover h-full rounded-t-lg" src="{{ $project->technology_image }}" alt=""/>
                         </a>
+
                         <div class="p-5 flex flex-col">
                             <a href="#" class="mb-2">
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">{{ $project->project_name }}</h5>
